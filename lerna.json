@@ -3,6 +3,6 @@
   "useWorkspaces": true,
   "version": "4.0.0-alpha.12",
   "packages": [
-    "packages/*"
+    "packages/vue-apollo-composable"
   ]
 }
