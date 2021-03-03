@@ -1,6 +1,6 @@
 {
   "name": "test-e2e-global-composable-vue3",
-  "version": "4.0.0-alpha.12",
+  "version": "4.0.0-chatlands-alpha.13",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

@@ -1,6 +1,8 @@
 {
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "4.0.0-chatlands-alpha.12",
-  "packages": ["packages/vue-apollo-composable"]
+  "version": "4.0.0-chatlands-alpha.13",
+  "packages": [
+    "packages/vue-apollo-composable"
+  ]
 }
