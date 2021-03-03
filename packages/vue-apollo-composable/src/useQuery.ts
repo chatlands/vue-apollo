@@ -4,8 +4,6 @@ import {
   isRef,
   computed,
   watch,
-  // @ts-expect-error
-  onServerPrefetch,
   getCurrentInstance,
   onBeforeUnmount,
   nextTick,
@@ -28,6 +26,10 @@ import { paramToRef } from './util/paramToRef'
 import { paramToReactive } from './util/paramToReactive'
 import { useEventHook } from './util/useEventHook'
 import { trackQuery } from './util/loadingTracking'
+
+import * as VueDemi from 'vue-demi';
+
+const { onServerPrefetch } = VueDemi;
 
 export interface UseQueryOptions<
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
