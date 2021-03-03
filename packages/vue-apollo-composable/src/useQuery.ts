@@ -4,8 +4,6 @@ import {
   isRef,
   computed,
   watch,
-  // @ts-expect-error No implemented on Vue 3 yet, see https://github.com/vuejs/vue-next/pull/3070
-  onServerPrefetch,
   getCurrentInstance,
   onBeforeUnmount,
   nextTick,
@@ -31,6 +29,10 @@ import { useEventHook } from './util/useEventHook'
 import { trackQuery } from './util/loadingTracking'
 
 import type { CurrentInstance } from './util/types'
+
+import * as VueDemi from 'vue-demi';
+
+const { onServerPrefetch } = VueDemi;
 
 export interface UseQueryOptions<
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
