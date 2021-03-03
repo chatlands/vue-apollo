@@ -27,10 +27,10 @@ import { paramToReactive } from './util/paramToReactive'
 import { useEventHook } from './util/useEventHook'
 import { trackQuery } from './util/loadingTracking'
 
-import * as VueDemi from 'vue-demi';
+import * as VueDemi from 'vue-demi'
 
 // @ts-expect-error
-const { onServerPrefetch } = VueDemi;
+const { onServerPrefetch } = VueDemi
 
 export interface UseQueryOptions<
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
