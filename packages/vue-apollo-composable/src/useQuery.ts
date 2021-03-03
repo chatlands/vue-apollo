@@ -29,6 +29,7 @@ import { trackQuery } from './util/loadingTracking'
 
 import * as VueDemi from 'vue-demi';
 
+// @ts-expect-error
 const { onServerPrefetch } = VueDemi;
 
 export interface UseQueryOptions<
